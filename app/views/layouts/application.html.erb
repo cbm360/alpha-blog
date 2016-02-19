@@ -7,8 +7,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<%= image_tag 'PARADIGM_512width.png' %>
-<%= yield %>
+  <%= image_tag 'PARADIGM_512width.png' %>
+  
+  <% flash.each do |name, msg| %>
+    <ul>
+      <li><%= msg %></li>
+    </ul>
+  <% end %>
+
+  <%= yield %>
 
 </body>
 </html>
