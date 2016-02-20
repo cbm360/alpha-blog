@@ -11,7 +11,6 @@
 <% end %>
 
 <%= form_for @article do |f| %>
-
   <p>
     <%= f.label :title %><br>
     <%= f.text_field :title %>
@@ -25,5 +24,6 @@
   <p>
     <%= f.submit %>
   </p>
-
 <% end %>
+
+<%= link_to "Back to articles listing", articles_path %>
