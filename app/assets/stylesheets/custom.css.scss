@@ -6,7 +6,53 @@
   padding-right: 50px;
 }
 
+#signUpButton {
+  margin-top: 7em;
+}
+
+#signUpButton:hover {
+  background-color: #192267;
+  color: #1ba01d;
+}
 
 .center {
   text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('PARADIGM');
+  background-size: cover;
+  height: 550px;
+  opacity: 80;
+}
+
+.btn-xlarge {
+  font-size: 3em;
+  background-color: #192267;
+  color: white;
+}
+
+footer{
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: 7777;
+}
+
+footer a:hover {
+  color: #1ba01d;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
 }
