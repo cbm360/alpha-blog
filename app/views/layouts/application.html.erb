@@ -7,8 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<%= image_tag 'PARADIGM_512width.png' %>
-<%= yield %>
+  <%= image_tag 'PARADIGM_512width.png' %>
+  <%= render 'layouts/messages' %>
+  <%= yield %>
 
 </body>
 </html>
